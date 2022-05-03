@@ -1,0 +1,9 @@
+[alias]
+	co = checkout
+	cob = checkout --recurse-submodules -b
+	st = status
+	ci = commit -a
+	cia = commit -a --amend
+	ciaa = commit -a --amend --no-edit 
+	cl = clone
+	gra = log --pretty=oneline --graph --decorate --all
